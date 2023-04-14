@@ -1,0 +1,24 @@
+:root{
+  --main-color:#012939;
+  --secondary-color:#7db00e;
+  --blue-color:#10394A;
+  --gray-color:#767676;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  box-sizing: border-box;
+  background-color: var(--blue-color);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
